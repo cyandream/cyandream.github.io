@@ -66,7 +66,7 @@ var _MOVIES = (function() {
                 html += '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4"><div class="card paper"> ';
                 html += '<div class="tile background-image tile-lg background-top top" ';
                 html += 'style="background-image: url(' + imgSrc + ');">';
-                html += '<div class="margin"><div class="title-bottom-text"><div class="title col-xs-offset-4 col-xs-8 col-md-offset-0 col-md-12">';
+                html += '<div class="margin"><div class="title-bottom-text"><div class="title col-xs-offset-4 col-sm-offset-2 col-sm-10 col-xs-8 col-md-offset-0 col-md-12">';
                 html += '<span>' + value.Title + '</span>';
 
                 html += '</div></div></div></div></div></div>';
