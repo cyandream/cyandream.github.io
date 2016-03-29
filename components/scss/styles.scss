@@ -139,7 +139,7 @@ body,
 #movies.slideup {
     top: -215px;
     @media (min-width: $tablet) {
-        top: -200px;
+        top: -140px;
     }
 }
 
@@ -178,11 +178,14 @@ body,
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10px 10px;
+    @media (min-width: $mobile) {
+        height: 150px!important;
+    }
     @media (min-width: $tablet) {
         background-position-x: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px!important;
+        height: 200px!important;
     }
 }
 
