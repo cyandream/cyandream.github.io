@@ -60,13 +60,10 @@ body,
     z-index: 1200;
     background-color: $white;
     width: 100vw;
+    max-height: 550px;
     @media (min-width: $tablet) {
         width: 50vw;
-        top: -175px;
-    }
-    @media (min-width: $desktop) {
-        width: 50vw;
-        top: -200px;
+        top: -150x;
     }
     top: -175px;
     left: 50%;
