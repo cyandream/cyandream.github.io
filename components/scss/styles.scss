@@ -60,12 +60,8 @@ body,
     z-index: 1200;
     background-color: $white;
     width: 100vw;
-    max-height: 550px;
-    @media (min-width: $tablet) {
-        width: 50vw;
-        top: -150x;
-    }
-    top: -175px;
+    max-height: 535px;
+    top: -150px;
     left: 50%;
     transform: translate(-50%, 0);
     padding: 20px;
@@ -76,8 +72,16 @@ body,
     -moz-transition: .5s ease-out;
     -o-transition: .5s ease-out;
     transition: .5s ease-out;
+    @media (min-width: $tablet) {
+    width: 50vw;
+    top: -150x;
+    }
     h1 {
         color: $grey !important;
+    }
+    .btn.btn-fab.btn-md{
+        position:relative;
+        top: -35px;
     }
     #headerImg {
         width: 100%;
@@ -165,8 +169,10 @@ body,
     background-color: none;
     padding: 15px;
     margin-left: -15px;
+    text-align: left;
     @media (min-width: $tablet) {
         background-color: rgba(0, 0, 0, .6);
+        text-align: center;
     }
 }
 
@@ -193,7 +199,7 @@ body,
 .card .title {
     font-weight: medium!important;
     padding: 9px 0 24px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1em;
     position: relative;
     top: -50px;
